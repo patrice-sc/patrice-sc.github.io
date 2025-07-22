@@ -1,5 +1,6 @@
 ---
+title: README
 ---
-# patrice-sc.github.io
+# {{ page.title }}
 patrice-sc | GitHub Pages
 - {{ jekyll.version }}
