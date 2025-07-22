@@ -1,6 +1,7 @@
 ---
+title: Welcome
 ---
-# patrice-sc.github.io
+# {{ page.title }}
 - [`dotnet user-secrets`](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets)
 - [`dotnet user-jwts`](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/jwt-authn)
 - [Playwright](https://playwright.dev/)
