@@ -12,3 +12,8 @@
 index.md
 <hr>
 patrice-sc | GitHub Pages
+<hr>
+{% assign sorted_pages = site.pages %}
+{% for page in sorted_pages %}
+  <a href="{{ page.url }}">{{ page.title }} Test</a>
+{% endfor %}
