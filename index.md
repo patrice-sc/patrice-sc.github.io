@@ -1,5 +1,5 @@
 ---
-position: 01
+date: 2000-01-01
 title: Welcome
 ---
 # {{ page.title }}
