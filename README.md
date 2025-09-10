@@ -1,4 +1,5 @@
 ---
+position: 10
 title: README
 ---
 # {{ page.title }}
