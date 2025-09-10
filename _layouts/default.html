@@ -2,7 +2,7 @@
   <body>
     <aside>
       <ul>
-      {% for p in site.pages | sort: 'title' %}
+      {% for p in site.pages | sort: 'position' %}
         {% unless p.path contains '.css' %}
           {% if p.url != page.url %}
             <li><a href="{{ p.url }}">{{ p.title }}</a></li>
