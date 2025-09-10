@@ -1,5 +1,5 @@
 ---
-position: 1
+position: 01
 title: Welcome
 ---
 # {{ page.title }}
