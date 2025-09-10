@@ -1,11 +1,17 @@
 <html>
   <body>
     <aside>
-      {% assign sorted_pages = site.pages %}
       <ul>
-        {% for p in sorted_pages %}
-          <li><a href="{{ p.url }}">{{ p.title }}</a></li>
-        {% endfor %}
+      {% for p in site.pages | sort: 'title' %}
+        {% unless p.path contains '.css' %}
+          {% if p.url != page.url %}
+            <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+          {% else %}
+            <li><span>{{ p.title }}</span></li>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+      </ul>
     </aside>
     <main>
       {{ content }}
