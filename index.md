@@ -1,4 +1,5 @@
 ---
+ext: md
 position: 1
 title: Welcome
 ---
