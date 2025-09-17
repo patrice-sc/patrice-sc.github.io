@@ -24,6 +24,9 @@
     </aside>
     <main>
       {{ content }}
+      <footer>
+        <p>Generated on {{ site.time | date: "%B %d, %Y" }}</p>
+      </footer>
     </main>
   </body>
 </html>
