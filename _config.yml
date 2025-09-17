@@ -1,0 +1,9 @@
+menu:
+  - title: "README"
+    url: "/readme/"
+  - title: "Welcome"
+    url: "/welcome/"
+  - title: "SonarQube for IDE"
+    url: "/sonarqube/"
+  - title: "OpenTelemetry"
+    url: "/opentelemetry/"
