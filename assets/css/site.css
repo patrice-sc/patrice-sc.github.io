@@ -3,6 +3,7 @@ body {
 }
 
 aside {
+  flex-basis: fit-content;
   flex-shrink: 0;
 }
 
