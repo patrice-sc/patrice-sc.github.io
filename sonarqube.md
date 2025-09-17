@@ -1,3 +1,8 @@
+---
+ext: md
+position: 3
+title: SonarQube for IDE
+---
 Ignores all files in .vscode/ except extensions.json, which helps share recommended extensions without syncing personal settings :
 **.gitignore**
 ```plaintext
