@@ -1,1 +1,11 @@
-body {display:flex}
+body {
+  display:flex;
+}
+
+aside {
+  flex-shrink: 0;
+}
+
+main {
+  flex-grow: 0;
+}
