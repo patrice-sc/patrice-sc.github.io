@@ -1,6 +1,6 @@
 menu:
   - title: "README"
-    url: "/readme"
+    url: "/README"
   - title: "Welcome"
     url: "/"
   - title: "SonarQube for IDE"
