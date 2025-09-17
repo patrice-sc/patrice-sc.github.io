@@ -2,7 +2,7 @@ menu:
   - title: "README"
     url: "/README"
   - title: "Welcome"
-    url: "/index"
+    url: "/"
   - title: "SonarQube for IDE"
     url: "/sonarqube"
   - title: "OpenTelemetry"
