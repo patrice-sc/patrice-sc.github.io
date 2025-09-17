@@ -10,3 +10,8 @@ aside {
 main {
   flex-grow: 1;
 }
+
+ul, ol {
+  margin: revert;
+  padding: revert;
+}
