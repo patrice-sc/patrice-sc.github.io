@@ -4,6 +4,7 @@ position: 3
 title: SonarQube for IDE
 ---
 Ignores all files in .vscode/ except extensions.json, which helps share recommended extensions without syncing personal settings :
+
 **.gitignore**
 ```plaintext
 .vscode/*
@@ -11,6 +12,7 @@ Ignores all files in .vscode/ except extensions.json, which helps share recommen
 ```
 
 This extensions.json file tells VS Code to recommend installing the SonarQube for IDE extension (SonarSource.sonarlint-vscode) when someone opens the project. It's useful for promoting consistent code quality tools across your team.
+
 **.vscode/extensions.json**
 ```json
 {
@@ -19,4 +21,5 @@ This extensions.json file tells VS Code to recommend installing the SonarQube fo
   ]
 }
 ```
+
 ![Recommandations](./images/SonarQube for IDE.png)
