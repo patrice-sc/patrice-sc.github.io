@@ -13,15 +13,13 @@
   <body>
     <aside>
       <ul>
-      {% for p in site.pages | where: "ext", ".md" | sort: "position" %}
-        {% unless p.path contains '.css' %}
+        {% for p in site.menu %}
           {% if p.url != page.url %}
             <li><a href="{{ p.url }}">{{ p.title }}</a></li>
           {% else %}
             <li><span>{{ p.title }}</span></li>
           {% endif %}
-        {% endunless %}
-      {% endfor %}
+        {% endfor %}
       </ul>
     </aside>
     <main>
