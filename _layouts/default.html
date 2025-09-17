@@ -14,7 +14,7 @@
     <aside>
       <ul>
         {% for p in site.menu %}
-          {% if p.url | append: ".html" != page.url %}
+          {% if p.url != page.url and p.url | append: ".html" != page.url %}
             <li><a href="{{ p.url }}">{{ p.title }}</a></li>
           {% else %}
             <li><span>{{ p.title }}</span></li>
